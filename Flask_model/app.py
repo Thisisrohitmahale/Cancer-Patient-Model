@@ -7,7 +7,7 @@ print('[INFO] model loaded')
 
 @app.route('/')
 def hello_world():
-    return render_template('Welcome.html')
+    return render_template('Home.html')
 
 
 @app.route('/predict' , methods = ['post'])
